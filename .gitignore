@@ -30,13 +30,14 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+photo_shooting/build/Release
 
 # Dependency directories
 node_modules/
 jspm_packages/
 .DS_Store
-/dist
+dist
+src/assets/carousel
 # TypeScript v1 declaration files
 typings/
 
@@ -59,10 +60,7 @@ typings/
 .env
 
 # next.js build output
-.next
-.DS_Store
-node_modules
-/dist
+
 
 # local env files
 .env.local
@@ -81,3 +79,4 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+node_modules
